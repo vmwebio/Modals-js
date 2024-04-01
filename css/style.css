@@ -59,9 +59,10 @@ a {
   font-weight: 700;
   padding: 10px 20px;
   cursor: pointer;
-  outline: 2px solid transparent;
+  outline: 1px solid transparent;
   outline-offset: 3px;
   transition: background-color .2s ease-in-out, color .2s ease-in-out;
+  border-radius: 10px;
 }
 
 .section__button:hover {
@@ -80,7 +81,7 @@ a {
   background-color: rgba(0, 0, 0, 0.5);
   cursor: pointer;
   padding: 30px 14px;
-  display: flex;
+  display: none;
   overflow-y: auto;
   font-size: 18px;
 }
