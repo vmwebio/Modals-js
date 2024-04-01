@@ -5,16 +5,22 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Modal</title>
+    <title>Modal js</title>
     <link rel="stylesheet" href="./css/style.css">
-    <script src="./js/script.js" defer></script>
+    <script src="./js/script.js" type="module"></script>
 </head>
 <body>
-<section class="section">
+<header class="header">
+    <nav class="navigation">
+        <a href="#first">Первая секция</a>
+        <a href="#second">Вторая секция</a>
+    </nav>
+</header>
+<section class="section" id="first">
     <h1 class="section__title">Модальное окно</h1>
     <button class="section__button btn__open-one">Открыть</button>
 </section>
-<section class="section">
+<section class="section" id="second">
     <h1 class="section__title">Модальное окно 2</h1>
     <button class="section__button btn__open-two">Открыть</button>
 </section>
