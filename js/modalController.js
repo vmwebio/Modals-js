@@ -1,5 +1,6 @@
 import {scrollController} from "./scrollController.js";
 
+
 export const modalController = ({modal, btnOpen, btnClose, time = 300}) => {
     const buttonElems = document.querySelectorAll(btnOpen);
     const modalElem = document.querySelector(modal);
