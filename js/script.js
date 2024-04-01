@@ -6,6 +6,7 @@ modalController({
     btnOpen: '.btn__open-one',
     btnClose:'.modal__close' ,
 });
+
 // Modal 2
 modalController({
     modal: '.modal__two',
